@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,
+			initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+		<title>Movice</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body data-spy="scroll" data-target="#selector">
+		<header class="myheader">
+			<div class="mynavbar">				
+				<ul class="list-inline container myheaderUl">
+					<li><a href="#" style="font-size: 20px;color: aqua;font-weight: bold;font-family:;">Ca<span style="font-family:'book antiqua';">Sual</span></a></li>
+					<li><a href="#"><span style="font-weight: bolder;color: #D9EDF7;">囧</span> 主站</a></li>
+					<li><a href="#">广场</a></li>
+					<li><a href="#">话题</a></li>
+					<li><a href="#">今日尝鲜</a></li>
+					<li class="col-lg-offset-5 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 dropdown myLogin"><a href="#" class="dropdown-toggle" data-toggle="dropdown">登录</a>
+						<ul class="dropdown-menu">
+							<li>请先登录：</li>
+							<li style="margin: 0px 10px;">&nbsp;<img src="img/iconLogin.gif" width="250px"/> &nbsp;</li>
+							<li style="margin: 0px 10px;"><a href="#" class="btn btn-info">登录</a></li>
+							<li><a href="#">首次使用？点我注册</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">娱乐</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">视频投稿</a></li>
+							<li><a href="#">音频投稿</a></li>
+							<li><a href="#">内容投稿</a></li>
+						</ul>
+					</li>
+					<li><a href="#">历史</a></li>
+				</ul>
+			</div>
+			<div class="container" style="margin-top: 50px;">
+				<form action="#" class="input-group col-xs-offset-8" style="width: 300px;">
+                        <input type="text" class="form-control" placeholder="搜你想要的">
+                        <span class="input-group-btn"><button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button></span>
+				</form>
+			</div>
+		</header>
+		<section class="container" style="margin-top: 15px;">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  首页 </a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">番剧  <span class="badge">122</span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">国漫</a></li>
+						<li><a href="#">日漫</a></li>
+						<li class="divider"></li>
+						<li><a href="#">治愈</a></li>
+						<li><a href="#">经典</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">电影  <span class="badge">999+</span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">动作</a></li>
+						<li><a href="#">喜剧</a></li>
+						<li><a href="#">科幻</a></li>
+						<li><a href="#">爱情</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">音乐  <span class="badge">999+</span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">原创</a></li>
+						<li><a href="#">翻唱</a></li>
+						<li><a href="#">MV</a></li>
+						<li><a href="#">演奏</a></li>
+						<li><a href="#">音乐现场</a></li>
+						<li><a href="#">音乐综合</a></li>
+					</ul>
+				</li>
+				<li><a href="#">图片</a></li>
+				<li><a href="#">小说</a></li>
+				<li><a href="#">直播<span style="margin-left: 6px;" class="label label-danger">new</span></a></li>
+				<li><a href="#">文章</a></li>
+				<li><a href="#">游戏</a></li>
+				<li class="navbar-right"><a href="#"><span  class="glyphicon glyphicon-stats"></span> 排行榜</a></li>
+			</ul>
+		</section>
+		<section class="container myCarouselClass">
+			<div class="carousel slide" id="myCarousel" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/iframe01.jpg"/>
+						<div class="carousel-caption">
+						《起风了》:纵有疾风起，人生不言弃！
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/iframe02.jpg"/>
+						<div class="carousel-caption">
+							《魔女宅急送》:尽管也曾有消沉的时候<br />我还是过得很好。
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/iframe03.jpg"/>
+						<div class="carousel-caption">
+							《天空之城》:我们的孤独像天空漂浮的城市<br/>仿佛是一个秘密，却无从述说！
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/iframe04.jpg"/>
+						<div class="carousel-caption">
+							《龙猫》：大声地笑出来<br/>就不会害怕了！
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/iframe05.jpg"/>
+						<div class="carousel-caption">
+							《千与千寻》：曾经发生过的不可能忘记<br/>不过是想不起来而已！
+						</div>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+				<a href="#myCarousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#myCarousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+			
+		</section>
+		<section class="container carousel-inner mycarNav">
+			<ul class="list-inline">
+				<li><div class="mycarDiv" style="background-image: url(img/carnav01.gif);">
+					<span>漫榜</span>励志 | 激情 ···
+				</div></li><li><div class="mycarDiv" style="background-image: url(img/carnav012.jpg);">
+					<span>影榜</span>喜剧 | 科幻 ···
+				</div></li><li><div class="mycarDiv" style="background-image: url(img/carnav013.jpg);">
+					<span>乐榜</span>清新 | 优雅 ···
+				</div></li><li><div class="mycarDiv" style="background-image: url(img/carnav04.jpg);">
+					<span>推广</span>枞阳 | 风尚 ···
+				</div></li>
+			</ul>
+		</section>
+		<nav class="navbar navbar-default mybodyNav" id="selector">
+			<img src="img/iconNav.gif" width="60px"/>
+			<ul class=" nav navbar-nav">
+				<li class="active"><a href="#cartoon">番剧</a></li>
+				<li><a href="#movice">电影</a></li>
+				<li><a href="#music">音乐</a></li>
+				<li><a href="#picture">图片</a></li>
+				<li><a href="#noval">小说</a></li>
+				<li><a href="#live">直播</a></li>
+				<li><a href="#top" style="margin-left: 8px;"><span class="glyphicon glyphicon-chevron-up"></span></a></li>
+			</ul>
+		</nav>
+		<section class="container mysectionHeader" style="margin-top: 100px;">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/ImgTitle02.gif" width="100px" id="cartoon"/>
+					<ul class="list-inline">
+						<li><h2>番剧</h2></li>
+						<li><a href="#">游戏是意外、番剧才是真爱</a></li>
+						<li>|</li>
+						<li><a href="#">二次元的世界不是什么人都懂的</a></li>
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<div class="row myContentDiv">
+					<table class="mytableStyle">
+						<tr class="mytableTr">
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon01.jpg"/></a><div><a href="#">朝花夕拾</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon02.jpg"/></a><div><a href="#">大雄的金银岛</a><p>小时候的梦</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon03.jpg"/></a><div><a href="#">飞屋历险记</a><p>排出了向往的样子</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon04.jpg"/></a><div><a href="#">借东西的小人阿莉埃蒂</a><p>那些日子</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon05.jpg"/></a><div><a href="#">龙猫</a><p>纯净的心灵之旅</p></div></td>
+						</tr>
+						<tr class="mytableTr">
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon06.jpg"/></a><div><a href="#">肆式青春</a><p>回忆之作</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon07.jpg"/></a><div><a href="#">寻梦环游记</a><p>干净的灵魂</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon08.jpg"/></a><div><a href="#">昨日青空</a><p>别再该选择的时候错过</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon09.jpg"/></a><div><a href="#">疯狂动物城</a><p>动物的怪诞</p></div></td>
+							<td><a href="#"><img src="img/cartoonPhoto/cartoon10.jpg"/></a><div><a href="#">大圣归来</a><p>归来之时</p></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 20px;">
+				<h4>特别推荐</h4>
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#cartoon01" data-toggle="tab">最近更新</a></li>
+						<li><a href="#cartoon02" data-toggle="tab">本周</a></li>
+						<li><a href="#cartoon03" data-toggle="tab">本月</a></li>
+					</ul>
+					<div class="tab-content mycartoonMedia">
+						<div class="tab-pane fade in active" id="cartoon01">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">STEAM销量周榜2019年第29期 你女朋友穿模了</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+						<div class="tab-pane fade" id="cartoon02">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus102.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus103.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus101.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">酒很香，很醇，也很辣。大概能明白那个人为什么会喜欢。 喝他喝过的酒。 受他受过的伤。</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+						<div class="tab-pane fade" id="cartoon03">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">STEAM销量周榜2019年第29期 你女朋友穿模了</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<section class="container mysectionHeader">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/ImgTitle03.gif" width="100px" id="movice"/>
+					<ul class="list-inline">
+						<li><h2>电影</h2></li>
+						<li><a href="#">题材广泛、是电影界的内涵</a></li>
+						<li>|</li>
+						<li><a href="#">利用好每个夜晚的时间</a></li>
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<ul class="breadcrumb">
+					<li><a href="#">动作</a></li>
+					<li><a href="#">喜剧</a></li>
+					<li><a href="#">爱情</a></li>
+					<li><a href="#">科幻</a></li>
+					<li style="margin-left: 2%;"><a href="#">大陆</a></li>
+					<li><a href="#">美国</a></li>
+					<li><a href="#">印度</a></li>
+					<li><a href="#">韩国</a></li>
+					<li style="margin-left: 2%;"><a href="#">2019</a></li>
+					<li><a href="#">2018</a></li>
+					<li><a href="#">2017</a></li>
+					<li><a href="#">2016</a></li>
+					<li style="margin-left: 4%;"><a href="#">其它</a></li>
+				</ul>
+				<div class="row myContentDiv">
+					<table class="mytableStyle">
+						<tr class="mytabletwoTr">
+							<td id="mytd" colspan="2" rowspan="3" style="text-align: center;"><a href="#"><img src="img/movicePhoto/moviceverify.gif" width="330px"height="288px"/></a><div><a href="#">科幻季元年：那些藏匿在我们心中的梦</a><p>难得一见的好作品</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice02.jpg"/></a><div><a href="#">红海行动</a><p>团队作战</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice03.jpg"/></a><div><a href="#">头号玩家</a><p>那些的那些游戏</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice04.jpg"/></a><div><a href="#">宝塔镇河妖</a><p>网剧新作</p></div></td>
+						<tr/> 
+						<tr class="mytabletwoTr">
+							<td><a href="#"><img src="img/movicePhoto/movice05.jpg"/></a><div><a href="#">泰坦尼克号</a><p>美妙的爱情故事</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice06.jpg"/></a><div><a href="#">镰仓物语</a><p>平淡的节奏</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice07.jpg"/></a><div><a href="#">釜山行</a><p>感人的灾难片</p></div></td>
+						</tr>
+						<tr class="mytabletwoTr">
+							<td><a href="#"><img src="img/movicePhoto/movice08.jpg"/></a><div><a href="#">小萝莉的猴神大叔</a><p>保护好小孩子的梦</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice09.jpg"/></a><div><a href="#">印度暴徒</a><p>阿米尔汗的新作</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice10.jpg"/></a><div><a href="#">勇敢者游戏</a><p>强势来袭</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice11.jpg"/></a><div><a href="#">侏罗纪世界2</a><p>满足了恐龙梦</p></div></td>
+							<td><a href="#"><img src="img/movicePhoto/movice12.jpg"/></a><div><a href="#">古墓丽影</a><p>情怀IP</p></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3 myMoviceStatus" style="margin-top: 20px;">
+				<img src="img/moStaicon.png" width="80px" class="moStaicon"/>
+				<div>
+					<ul class="nav nav-pills nav-justified">
+						<li class="active"><a href="#movice01" data-toggle="pill">最热电影榜</a></li>
+						<li><a href="#movice02" data-toggle="pill" class="moviceClick">评分电影榜</a></li>
+					</ul>
+					<div class="tab-content mycartoonMedia">
+						<div class="tab-pane fade in active" id="movice01">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>1、</span>超时空同居 <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>2、</span>釜山行  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>3、</span>红海行动  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus04.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>4、</span>流感  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus05.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>5、</span>三傻大闹宝莱坞  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus06.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>6、</span>唐人街探案2  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus07.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>7、</span>西虹市首富  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus08.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>8、</span>西游记之女儿国  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus09.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>9、</span>小萝莉的猴神大叔  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus10.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>10、</span>捉妖记2  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							</div>
+						<div class="tab-pane fade" id="movice02">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>1、</span>红海行动  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus04.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>2、</span>流感  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>			
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>3、</span>超时空同居  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>4、</span>釜山行  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus05.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>5、</span>三傻大闹宝莱坞  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus06.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>6、</span>唐人街探案2  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus07.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>7、</span>西虹市首富  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus08.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>8、</span>西游记之女儿国  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus09.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>9、</span>小萝莉的猴神大叔  <i>主演：雷佳音</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/movicePhoto/moviceStatus10.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><h5><span>10、</span>捉妖记2  <i>主演：雷佳音、佟丽娅</i></h5></span><p>我多想留住这样的你，留住跨过时光、路过人潮、奔向我的你。</p></div></div>							
+						</div>				
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<section class="container mysectionHeader">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/ImgTitle04.png" id="music"/>
+					<ul class="list-inline">
+						<li><h2>音乐</h2></li>
+						<li><a href="#">音乐、世界的语言</a></li>
+						<li>|</li>
+						<li><a href="#">音乐世家，出名要趁早</a></li>
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<div class="row myContentDiv">
+					<table class="mytableStyle mymusicTable">
+						<tr>
+							<td rowspan="2" colspan="2"><a href="#"><img src="img/musicPhoto/music01.jpg"/></a><img src="img/musicPhoto/musicBegin.png" class="musicBegin"/><div><a href="#">清甜女生 | 好听节奏</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music04.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">小清新</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music02.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">落日孤独</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music03.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">一日徘徊路</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music05.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">凌乱节奏</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music06.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">晨昏中的日子</a><p>回忆青春</p></div></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img src="img/musicPhoto/music07.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">黄昏日下</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music08.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">美好时光</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music09.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">甜蜜爱情</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music10.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">夜不懂白的黑</a><p>回忆青春</p></div></td>
+							<td><a href="#"><img src="img/musicPhoto/music11.jpg"/><img src="img/musicPhoto/musicBegin.png" class="musicBegin2"/></a><div><a href="#">一个人</a><p>回忆青春</p></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 20px;">
+				<img src="img/musicPhoto/fourMusicImg.png"/> <span class="h4">音乐简讯</span>
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#music01" data-toggle="tab">最近更新</a></li>
+						<li><a href="#music02" data-toggle="tab">本周</a></li>
+						<li><a href="#music03" data-toggle="tab">本月</a></li>
+					</ul>
+					<div class="tab-content mycartoonMedia">
+						<div class="tab-pane fade in active mymusicMedia" id="music01">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">没有后期有多难听？高音  </span><p>UP：KDA《POP/STARS》<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">挑战一小时内写歌</span><p>UP:秒杀力元君和在下哲别<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">来自天堂的魔鬼</span><p>UP:美丽曲绘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus04.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">黑白联唱God Knows</span><p>UP:狐歌<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus05.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">洛天依原创</span><p>UP:手书pv<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/musicPhoto/musicStatus06.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">生来自由</span><p>UP:哪吒*敖丙原创曲<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+						</div>
+						<div class="tab-pane fade mymusicMedia" id="music02">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus102.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus103.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus101.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">酒很香，很醇，也很辣。大概能明白那个人为什么会喜欢。 喝他喝过的酒。 受他受过的伤。</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+						<div class="tab-pane fade mymusicMedia" id="music03">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">STEAM销量周榜2019年第29期 你女朋友穿模了</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<section class="container mysectionHeader">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/picture.png" id="picture"/>
+					<ul class="list-inline">
+						<li><h2>图片</h2></li>
+						<li><a href="#">没有什么比得上图片更直观的描述，如果有那就再来一张图片</a></li>
+						
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<div class="row myContentDiv">
+					<table class="mytableStyle mypictureTable">
+						<tr>
+							<td rowspan="3"><a href="#"><img src="img/picturePhoto/iframe01.jpg" id="mypictureImg"/></a>
+								<div>
+									<div class="progress progress-striped active">
+    								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+        							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+        							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+        							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+        							<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+									</div>
+								</div></td>
+							<td><a href="#"><img src="img/picturePhoto/photo001.jpg" id="mypictureImg01"/></a><div><a href="#">晨光</a><p>晨光无限好</p></div></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img src="img/picturePhoto/photo002.jpg" id="mypictureImg02"/></a><div><a href="#">平原上的小镇</a><p>夕阳下的生活</p></div></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 20px;">
+				<h4>图片风格</h4>
+				<dl class="mypictureDl"><dt>风景</dt><dd><a href="#">树木植物</a><a href="#">大海海滨</a><a href="#">蓝天白云</a><a href="#">日出日落</a><a href="#">瀑布溪流</a><a href="#">其它</a></dd>
+						<dt>动物</dt><dd><a href="#">可爱猫咪</a><a href="#">大海海滨</a><a href="#">蝴蝶昆虫</a><a href="#">海洋生物</a><a href="#">鸟类合集</a></dd>
+						<dt>建筑</dt><dd><a href="#">城市夜景</a><a href="#">各国建筑</a><a href="#">名胜古迹</a><a href="#">建筑风光</a></dd>
+						<dt>卡通</dt><dd><a href="#">动漫人物</a><a href="#">卡通明星</a><a href="#">卡通合集</a></dd>
+						<dt>人物</dt><dd><a href="#">女星模特</a><a href="#">快乐生活</a><a href="#">情侣时光</a><a href="#">家庭出行</a><a href="#">其它</a></dd>
+						<dt>美食</dt><dd><a href="#">面包甜点</a><a href="#">海鲜烧烤</a><a href="#">酒水饮料</a><a href="#">新鲜水果</a><a href="#">美食大餐</a></dd>
+						<dt>其它</dt><dd><a href="#">面包甜点</a><a href="#">海鲜烧烤</a><a href="#">酒水饮料</a><a href="#">新鲜水果</a><a href="#">美食大餐</a></dd>
+					</dl>
+			</div>
+			</div>
+		</section>
+		<section class="container mysectionHeader mysectionNovel">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/novel.png" id="noval"/>
+					<ul class="list-inline">
+						<li><h2>小说</h2></li>
+						<li><a href="#">游戏是意外、番剧才是真爱</a></li>
+						<li>|</li>
+						<li><a href="#">二次元的世界不是什么人都懂的</a></li>
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<div class="row myContentDiv myNovelDiv">
+					<div class="myNovelImg myNovelImg01">
+						<a href="#"><img src="img/novelPhoto/90.jpg" id="myNovel0"/></a>
+						<a href="#"><img src="img/novelPhoto/91.jpg" id="myNovel1"/></a>
+						<a href="#"><img src="img/novelPhoto/92.jpg" id="myNovel2"/></a>
+						<a href="#"><img src="img/novelPhoto/93.jpg" id="myNovel3"/></a>
+						<a href="#"><img src="img/novelPhoto/94.jpg" id="myNovel4"/></a>
+					</div>
+					<div class="myNovelImg myNovelImg02">
+						<a href="#"><img src="img/novelPhoto/95.jpg" id="myNovel5"/></a>
+						<a href="#"><img src="img/novelPhoto/96.jpg" id="myNovel6"/></a>
+						<a href="#"><img src="img/novelPhoto/97.jpg" id="myNovel7"/></a>
+						<a href="#"><img src="img/novelPhoto/98.jpg" id="myNovel8"/></a>
+						<a href="#"><img src="img/novelPhoto/99.jpg" id="myNovel9"/></a>
+					</div>
+					<table class="mytableStyle">
+						<tr>
+							<td class="media"><div class="media-left"><a href="#"><img src="img/novelPhoto/04.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><strong>一切从只狼开始 </strong> 荡川 著  </span><p>“我只是个兴趣使然的指挥官。”<br />与此同时，现实世界里也正在进行着一场无声的剧变。<br />那天，历史开始转弯。</p></div></td>
+							<td class="media"><div class="media-left"><a href="#"><img src="img/novelPhoto/01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><strong>朝阳警事  </strong>卓牧闲 著  </span><p>天眼，地眼，不如人眼。<br />社区民警，扎根基层，依靠群众之眼屡破奇案。<br />朝阳群众表示：别犯事，否则你就完蛋了！</p></div></td>
+							<td></td>							
+						</tr>
+						<tr>
+							<td class="media"><div class="media-left"><a href="#"><img src="img/novelPhoto/02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><strong>神宠进化</strong> 酒池醉 著</span><p>PS：本书别名——《宠物进化》新纪元来临，天地异变。地星本土动植物疯狂变异、返祖，异界物种沦落地星，最终新纪元人类诞生一种全新的职业御使。收服怪物，培养怪物，训练怪物，这就是御使。</p></div></td>
+							<td class="media"><div class="media-left"><a href="#"><img src="img/novelPhoto/03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading"><strong>青玄道主</strong> 中原五百 著  </span><p>　何谓道主？<br />答：“十方无影像,六道绝行踪。跳出三界外,不在五行中，是为道主”。 </p></div></td>
+							<td></td>							
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 20px;">
+				<img src="img/novelPhoto/novelIcon.png"/><h4 style="display: inline-block;">特别推荐</h4>
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#novel01" data-toggle="tab">最近更新</a></li>
+						<li><a href="#novel02" data-toggle="tab">本周</a></li>
+						<li><a href="#novel03" data-toggle="tab">本月</a></li>
+					</ul>
+					<div class="tab-content mycartoonMedia mynovelMedia">
+						<div class="tab-pane fade in active" id="novel01">
+							<div class="media"><div class="media-body"><span class="label label-danger">No.1</span><br /><span class="media-heading"><strong><a href="#">全球高武之我大舅哥无敌</a></strong></span><br /><p>异界网友 著<p>轻小说<small></small>衍生同人</p></p></div>
+							<div class="media-right"><a href="#"><img src="img/novelPhoto/15.jpg" class="media-object"/></a></div></div>
+							<div class="media"><div class="media-body"><span class="label label-warning">2</span><span class="media-heading"><a href="#">捡了一片荒野</a></span><p class="mynovelP">786万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-success">3</span><span class="media-heading"><a href="#">魔改漫威电影宇宙</a></span><p class="mynovelP">27万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">4</span><span class="media-heading"><a href="#">食物链顶端的忍者</a></span><p class="mynovelP">59万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">5</span><span class="media-heading"><a href="#">雍杰传奇</a></span><p class="mynovelP">233万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">6</span><span class="media-heading"><a href="#">我没想当影帝</a></span><p class="mynovelP">177万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">7</span><span class="media-heading"><a href="#">次元的 交错</a></span><p class="mynovelP">29万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">8</span><span class="media-heading"><a href="#">异界之养蜂人</a></span><p class="mynovelP">23万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">9</span><span class="media-heading"><a href="#">次元追梦师</a></span><p class="mynovelP">11万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">10</span><span class="media-heading"><a href="#">山河之王</a></span><p class="mynovelP">3万字 </p></div></div>
+						</div>
+						<div class="tab-pane fade" id="novel02">
+							<div class="media"><div class="media-body"><span class="label label-danger">No.1</span><br /><span class="media-heading"><strong><a href="#">咫尺之间人尽敌国</a></strong></span><br /><p>乘风御剑 著<p>玄幻<small></small>东方玄幻</p></p></div>
+							<div class="media-right"><a href="#"><img src="img/novelPhoto/16.jpg" class="media-object"/></a></div></div>
+							<div class="media"><div class="media-body"><span class="label label-warning">2</span><span class="media-heading"><a href="#">捡了一片荒野</a></span><p class="mynovelP">786万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-success">3</span><span class="media-heading"><a href="#">魔改漫威电影宇宙</a></span><p class="mynovelP">27万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">4</span><span class="media-heading"><a href="#">食物链顶端的忍者</a></span><p class="mynovelP">59万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">5</span><span class="media-heading"><a href="#">雍杰传奇</a></span><p class="mynovelP">233万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">6</span><span class="media-heading"><a href="#">我没想当影帝</a></span><p class="mynovelP">177万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">7</span><span class="media-heading"><a href="#">次元的 交错</a></span><p class="mynovelP">29万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">8</span><span class="media-heading"><a href="#">异界之养蜂人</a></span><p class="mynovelP">23万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">9</span><span class="media-heading"><a href="#">次元追梦师</a></span><p class="mynovelP">11万字 </p></div></div>
+							<div class="media"><div class="media-body"><span class="label label-default">10</span><span class="media-heading"><a href="#">山河之王</a></span><p class="mynovelP">3万字 </p></div></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<section class="container mysectionHeader">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+				<div class="mysectionDiv row">
+					<img src="img/live.png" id="live"/>
+					<ul class="list-inline">
+						<li><h2>直播</h2></li>
+						<li><a href="#">直播让世界更靠近</a></li>
+						<li>|</li>
+						<li><a href="#">快来看呀！这里有人在直播</a></li>
+						<li class="myheaderMore"><span><a href="#">更多  > </a></span></li>
+					</ul>
+				</div>
+				<div class="row myContentDiv">
+					<table class="mytableStyle">
+						<tr class="mytableTr">
+							<td><a href="#"><img src="img/livePhoto/live01.jpg"/></a><div><a href="#">王源新作倾情演出</a><p>现场热闹非凡</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live02.jpg"/></a><div><a href="#">电竞现场</a><p>电竞、电竞也是竞技</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live03.jpg"/></a><div><a href="#">王源的现场</a><p>粉丝们的热情</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live04.jpg"/></a><div><a href="#">美少女的直播</a><p>快来~ 快来！</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live05.jpg"/></a><div><a href="#">歌曲的线程</a><p>好听的歌曲等着你哦</p></div></td>
+						</tr>
+						<tr class="mytableTr">
+							<td><a href="#"><img src="img/livePhoto/live06.jpg"/></a><div><a href="#">主持的现场</a><p>大家一起来看看他们吧</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live07.jpg"/></a><div><a href="#">TFBOYS热搜始终伴随</a><p>左手右手一个慢动作</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live08.jpg"/></a><div><a href="#">美女的主播平台</a><p>快来快来~</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live09.jpg"/></a><div><a href="#">动物也来做直播了</a><p>大家一起分享一下吧</p></div></td>
+							<td><a href="#"><img src="img/livePhoto/live10.jpg"/></a><div><a href="#">直播的装备现场</a><p>挥一挥手，来围观吧</p></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 20px;">
+				<h4>特别推荐</h4>
+				<div>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#live01" data-toggle="tab">最近更新</a></li>
+						<li><a href="#live02" data-toggle="tab">本周</a></li>
+						<li><a href="#live03" data-toggle="tab">本月</a></li>
+					</ul>
+					<div class="tab-content mycartoonMedia">
+						<div class="tab-pane fade in active" id="live01">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/livePhoto/liveStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">直播也是一种生活方式  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/livePhoto/liveStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">直播界的深夜食堂</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/livePhoto/liveStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">吃播的生存战斗</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">为什么我看别人直播都是这种版本</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">游戏主播的竞赛生存空间到底在哪里呢？是时候表演真正的技术了</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+						<div class="tab-pane fade" id="live02">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus102.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus103.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus101.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">酒很香，很醇，也很辣。大概能明白那个人为什么会喜欢。 喝他喝过的酒。 受他受过的伤。</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+						<div class="tab-pane fade" id="cartoon03">
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus02.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">为美好的世界献上祝福  </span><p>UP：嘀哩看板娘<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 811</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus03.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">『新番』满月之战</span><p>UP:『月を追う真夜中』<br /><span class="glyphicon glyphicon-play"></span> 2513<small class="glyphicon glyphicon-heart-empty"></small> 313</p></div></div>
+							<div class="media"><div class="media-left"><a href="#"><img src="img/cartoonPhoto/carStatus01.jpg" class="media-object"/></a></div><div class="media-body"><span class="media-heading">唐门的传承</span><p>UP:唐门番外<br /><span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 423</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">STEAM销量周榜2019年第29期 你女朋友穿模了</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+							<div class="media"><div class="media-body"><span class="media-heading">TV動畫「刀剑神域 Alicization War of Underworld」PV第1弹</span><p> <span class="glyphicon glyphicon-play"></span> 1147<small class="glyphicon glyphicon-heart-empty"></small> 356</p></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<footer style="background-color: #F9F2F4;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-3">
+						<span>合作</span>
+						<ul class="list-inline"><li><a href="#">关于我们</a></li><li><a href="#">联系我们</a></li></ul>
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<span>官方</span>
+						<ul class="list-inline"><li><a href="#">微信公众号</a></li><li><a href="#">官方授权</a></li></ul>
+						<ul class="list-inline"><li><a href="#">新浪微博</a></li></ul>
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<span>友情链接</span>
+						<ul class="list-inline"><li><a href="#">弹窗视频</a></li><li><a href="#">原创视频</a></li></ul>
+						<ul class="list-inline"><li><a href="#">弹幕视频</a></li></ul>
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<span>反馈</span>
+						<ul class="list-inline"><li><a href="#">帮助中心</a></li><li><a href="#">用户反馈</a></li><li><a href="#">用户协议</a></li></ul>
+						<ul class="list-inline"><li><a href="#">隐私政策</a></li></ul>
+						<ul class="list-inline"><li><a href="#">侵权举报申诉</a></li></ul>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<p>广播电视节目制作经营许可证：（沪）字第1888号 | 网络文化经营许可证：沪网文[2019]2999-199号 | 信息网络传播视听节目许可证：0999999 | 互联网ICP备案：沪ICP备1300999号-9沪ICP证：沪B2-20199999 | 违法不良信息举报邮箱：casual@bootstrap.com | 违法不良信息举报电话：4009999999转9 | 营业执照</p>
+						</div>
+					</div>
+					<div class="row" style="text-align: center;">
+						<div class="col-md-12 col-xs-12">
+							<a href="#" style="font-size: 20px;color: aqua;font-weight: bold;font-family:;">Ca<span style="font-family:'book antiqua';">Sual</span></a>
+							<p>Copyright © 20019-2022 保留所有权利</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,183 @@
+section,.container,footer{min-width: 1000px;}
+a:hover{text-decoration: none;}
+a{color: black;}
+/*header*/
+.myheader{
+	background: url(../img/headerImgs.jpg) no-repeat;
+	background-size: 100%;
+	height: 200px;
+	font-size: 1.1em;
+	min-width: 1000px;
+}
+.myheader .mynavbar{
+	background: linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.2),rgba(255,255,255,0.3),rgba(255,255,255,0.4),rgba(255,255,255,0.5));
+}
+.myheader .myheaderUl>li{padding: 25px 15px 10px 15px;}
+.myheader .myheaderUl>li>a{color: whitesmoke;}
+.myheader .myheaderUl a:hover{color:cyan;}
+.myheader .myLogin .dropdown-menu a{color: black;}
+.myheader .myLogin>a{
+	background-color: deeppink;
+	padding: 20px 30px;
+	border-radius: 0px 0px 10px 10px;
+}
+.myheader .form-control,.btn-default{background-color: rgba(255,255,255,0.5);}
+/*轮播图*/
+.myCarouselClass{margin-top: 20px;}
+.myCarouselClass .carousel-inner,.carousel-control{border-radius: 15px;}
+.mycarNav{position: absolute;margin-top: -25px;text-align: center;}
+.mycarNav li{background-color: white;padding: 3px;margin: 0;}
+.mycarNav li:hover{
+	transform: scale(1.3) translateY(15px);
+	transition: all 0.3s;
+}
+.mycarNav .mycarDiv{width: 180px;height: 100px;}
+.mycarNav .mycarDiv span{
+	background-color: rgba(255,255,255,0.6);
+	padding: 5px 10px;
+	font-size: 16px;
+	font-weight: bolder;
+	 font-family:"仿宋";
+}
+/*番剧css*/
+/*番剧头部样式*/
+.mysectionHeader{margin-top: 20px;}
+.mysectionHeader .mysectionDiv img{vertical-align:bottom;}
+.mysectionHeader .mysectionDiv ul{display: inline-block;margin-left: 1%;width: 80%;}
+.mysectionHeader .mysectionDiv ul li>a{color: #8C8C8C;}
+.mysectionHeader .mysectionDiv ul li a:hover{color: #CCCCCC;}
+.mysectionHeader .mysectionDiv ul li span a{color:deeppink ;}
+.myheaderMore{margin-top: 4.5%;float: right;}
+/*番剧内部样式*/
+.mysectionHeader .myContentDiv{margin-top:20px;}
+.mytableStyle{border-collapse:separate; border-spacing:1em;}
+.mytableStyle tr td img{border-radius: 6px;margin-bottom: 6px;}
+.mytableStyle tr td p,i{
+	color: #CCCCCC;
+}
+.mytableStyle .mytableTr td:not([id=mytd]):hover{
+	border-radius: 6px;
+	box-shadow: 8px 9px 6px black;
+	position: absolute;
+	transform: scale(1.2);
+}
+/*番剧的特别推荐*/
+.mycartoonMedia .tab-pane{margin-top: 10px;}
+.mycartoonMedia p{font-size: 5px;color: #C0C0C0;}
+.mycartoonMedia .media{margin: 0;}
+.mycartoonMedia .media-left a img{
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+}
+.mycartoonMedia .media small{margin-left: 15%;}
+@media(max-width: 1200px) {
+	.mysectionHeader table tr td:last-child{display: none;}
+}
+/*电影排行导航*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {color: black;background-color: #efefef;}
+.myMoviceStatus .mycartoonMedia .media{padding-bottom: 6px;border-bottom:1px #ccc solid ;}
+.myMoviceStatus .mycartoonMedia .media .media-heading  span{
+	display: block; width: 25px; color: #999999; float: left; text-align: center; font-weight: bold; 
+}
+.myMoviceStatus .mycartoonMedia .media:last-child{border-bottom: none;}
+.moStaicon{animation: name2 10s 1s infinite linear;}
+/*.moStaicon{animation: loading 4s infinite linear;}*/
+/*@keyframes loading{
+	from{
+		transform: translate(-500px) rotate(0deg);
+	}
+	
+	to{
+		transform:translate(500px) rotate(1440deg);
+	}
+}*/
+@keyframes name2{
+	10%{transform: translateX(10px) rotate(0);	}
+	20%{transform: translateX(40px) rotate(1440deg);	}
+	30%{transform: translateX(200px) rotate(0deg);}
+	40%{transform: translateX(-60px) rotate(1440deg);}
+	45%{transform: translate(-62px,10px) rotate(0);}
+	50%{transform: translate(-67px,0px) rotate(1440deg);}
+	60%{transform: translateX(-80px) rotate(0);}
+	65%{transform: translate(-90px,-20px) rotate(1440deg);}
+	70%{transform: translate(-120px,-80px) rotate(0deg);}
+	75%{transform: translate(-250px,0px) rotate(1440deg);}
+	85%{transform: translate(-300px,0px) rotate(0deg);}
+	95%{transform: translate(-900px,0px) rotate(1440deg);}
+	100%{transform: translate(0px,0px) rotate(0deg);}
+}
+.mytableStyle .mytabletwoTr td:not([id=mytd]):hover{
+	border-radius: 6px;
+	box-shadow: 8px 9px 6px black;
+	transform: scale(1.2);
+}
+/*音乐样式*/
+.mymusicTable tr td{position: relative;}
+.musicBegin{top: 200px;left: 90px;}
+.musicBegin,.musicBegin2{position: absolute;}
+.musicBegin2{top: 20px;left: 10px;}
+.mymusicMedia{height: 300px;overflow: hidden;}
+/*图片样式*/
+@media(max-width: 1200px) {.mypictureTable tr td img{width: 100%;} .mypictureDl{height: 500px;overflow: hidden;}}
+.mypictureDl dd{
+	margin: 10px 10px;
+	line-height: 20px;
+}
+.mypictureDl dd a{
+	margin: 10px 10px;
+	padding-top: 10px;
+}
+/*导航样式*/
+.mybodyNav{
+	position: fixed;
+	top: 200px;
+	width: 60px;
+	border: 0;
+	display: inline-block;
+}
+@media (max-width:800px ) {
+	.mybodyNav{
+		display: none;
+	}
+}
+/*小说样式*/
+.myNovelDiv .myNovelImg{display: inline-block;}
+#myNovel2,#myNovel7{position: relative;z-index: 5;}
+#myNovel1,#myNovel6,#myNovel8,#myNovel3{
+	position: relative;
+	width: 80px;
+	z-index: 4;
+	top: -3px;
+}
+#myNovel1,#myNovel6{left: 20px;}
+#myNovel3,#myNovel8{left: -20px;}
+#myNovel0,#myNovel4,#myNovel5,#myNovel9{
+	position: relative;
+	width: 70px;
+	z-index: 3;
+	top: -6px;
+}
+#myNovel0,#myNovel5{left: 40px;}
+#myNovel4,#myNovel9{left: -40px;}
+@media(max-width: 1200px) { .myNovelImg01{margin-left: -30px;} .myNovelImg02{margin-left: -50px;}}
+.myNovelDiv a img{
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+}
+.mynovelMedia .label-default{
+	background-color: #C0C0C0;
+}
+.mynovelMedia .label{margin-right: 10px;}
+.mynovelMedia .mynovelP{display: inline-block;float: right;}
+.mynovelMedia .media{
+	margin: 10px 3px;
+	border-bottom: 1px solid #E3E3E3;
+}
+/*底部样式*/
+footer{margin-top: 30px;padding-top: 20px;}
+footer .col-md-3>span{
+	color: #D5D5D5;
+}
+footer .list-inline{
+	margin-top: 20px;
+}
